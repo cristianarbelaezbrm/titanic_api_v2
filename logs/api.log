@@ -1,0 +1,47 @@
+2025-07-17 22:34:34,358 - INFO - GET /docs - 0.002s
+2025-07-17 22:34:35,507 - INFO - GET /openapi.json - 0.015s
+2025-07-17 22:35:16,622 - INFO - GET /health - 0.004s
+2025-07-17 22:35:16,707 - INFO - GET /favicon.ico - 0.001s
+2025-07-17 22:37:39,105 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 22:37:39,120 - ERROR - Error durante la predicción
+Traceback (most recent call last):
+  File "C:\Users\CAMILA\Documents\challenge_rappi\MLE\challenge\.\src\api\main.py", line 93, in predict
+    df = pd.DataFrame([p.model_dump() for p in passengers])
+  File "C:\Users\CAMILA\Documents\challenge_rappi\MLE\challenge\.\src\api\main.py", line 93, in <listcomp>
+    df = pd.DataFrame([p.model_dump() for p in passengers])
+AttributeError: 'Passenger' object has no attribute 'model_dump'
+2025-07-17 22:37:39,177 - INFO - POST /predict - 0.101s
+2025-07-17 22:39:37,609 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 22:39:37,651 - INFO - Predicción completada correctamente
+2025-07-17 22:39:37,654 - INFO - POST /predict - 0.068s
+2025-07-17 22:47:01,117 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 22:47:01,169 - INFO - Predicción completada correctamente
+2025-07-17 22:47:01,171 - INFO - POST /predict - 0.059s
+2025-07-17 22:47:09,822 - INFO - POST /predict - 0.000s
+2025-07-17 22:47:17,195 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 22:47:17,208 - INFO - Predicción completada correctamente
+2025-07-17 22:47:17,213 - INFO - POST /predict - 0.020s
+2025-07-17 22:48:23,156 - INFO - Importancias de features calculadas correctamente
+2025-07-17 22:48:23,157 - INFO - GET /feature-importances - 0.004s
+2025-07-17 23:03:06,190 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 23:03:06,192 - INFO - Modelo seleccionado: B
+2025-07-17 23:03:06,288 - INFO - Predicción completada correctamente
+2025-07-17 23:03:06,293 - INFO - POST /predict - 0.115s
+2025-07-17 23:03:10,929 - INFO - Importancias de features calculadas correctamente (modelo A)
+2025-07-17 23:03:10,931 - INFO - GET /feature-importances - 0.002s
+2025-07-17 23:10:29,117 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 23:10:29,117 - INFO - Modelo seleccionado: A
+2025-07-17 23:10:29,179 - INFO - Predicción completada correctamente
+2025-07-17 23:10:29,185 - INFO - POST /predict - 0.068s
+2025-07-17 23:10:38,637 - INFO - Importancias de features calculadas correctamente (modelo A)
+2025-07-17 23:10:38,637 - INFO - GET /feature-importances - 0.000s
+2025-07-17 23:11:27,506 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 23:11:27,506 - INFO - Modelo seleccionado: B
+2025-07-17 23:11:27,525 - INFO - Predicción completada correctamente
+2025-07-17 23:11:27,525 - INFO - POST /predict - 0.019s
+2025-07-17 23:27:46,018 - INFO - Petición recibida para 2 pasajeros
+2025-07-17 23:27:46,018 - INFO - Modelo seleccionado: A
+2025-07-17 23:27:46,040 - INFO - Predicción completada correctamente
+2025-07-17 23:27:46,042 - INFO - POST /predict - 0.026s
+2025-07-17 23:27:50,431 - INFO - Importancias de features calculadas correctamente (modelo A)
+2025-07-17 23:27:50,431 - INFO - GET /feature-importances - 0.000s

@@ -1,0 +1,44 @@
+2025-07-17 22:23:02,036 - INFO - Iniciando pipeline de entrenamiento
+2025-07-17 22:23:02,037 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-17 22:23:02,046 - INFO - Aplicando preprocesamiento al dataset
+2025-07-17 22:23:02,052 - INFO - Entrenando y exportando el modelo
+2025-07-17 22:23:02,153 - INFO - Pipeline completado exitosamente
+2025-07-17 22:23:03,160 - INFO - Tiempo total de ejecución: 1.12 segundos
+2025-07-17 22:23:03,160 - INFO - Uso de memoria: 107.32 MB
+2025-07-17 22:23:03,160 - INFO - Uso de CPU: 22.50 %
+2025-07-17 23:00:00,719 - INFO - Iniciando pipeline de entrenamiento
+2025-07-17 23:00:00,720 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-17 23:00:00,733 - INFO - Aplicando preprocesamiento al dataset
+2025-07-17 23:00:00,750 - INFO - Entrenando y exportando modelo A (baseline)
+2025-07-17 23:00:00,869 - INFO - Entrenando y exportando modelo B (mejorado)
+2025-07-17 23:00:01,302 - INFO - Pipeline completado exitosamente
+2025-07-17 23:00:02,303 - INFO - Tiempo total de ejecución: 1.58 segundos
+2025-07-17 23:00:02,304 - INFO - Uso de memoria: 113.60 MB
+2025-07-17 23:00:02,304 - INFO - Uso de CPU: 29.00 %
+2025-07-17 23:08:50,681 - INFO - Iniciando pipeline de entrenamiento
+2025-07-17 23:08:50,683 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-17 23:08:50,762 - INFO - Aplicando preprocesamiento al dataset
+2025-07-17 23:08:50,784 - INFO - Entrenando y exportando modelo A (baseline)
+2025-07-17 23:08:50,918 - INFO - Entrenando y exportando modelo B (mejorado)
+2025-07-17 23:08:51,227 - INFO - Pipeline completado exitosamente
+2025-07-17 23:08:52,241 - INFO - Tiempo total de ejecución: 1.56 segundos
+2025-07-17 23:08:52,242 - INFO - Uso de memoria: 113.80 MB
+2025-07-17 23:08:52,243 - INFO - Uso de CPU: 61.30 %
+2025-07-17 23:26:43,052 - INFO - Iniciando pipeline de entrenamiento
+2025-07-17 23:26:43,052 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-17 23:26:43,072 - INFO - Aplicando preprocesamiento al dataset
+2025-07-17 23:26:43,087 - INFO - Entrenando y exportando modelo A (baseline)
+2025-07-17 23:26:43,220 - INFO - Entrenando y exportando modelo B (mejorado)
+2025-07-17 23:26:43,538 - INFO - Pipeline completado exitosamente
+2025-07-17 23:26:44,549 - INFO - Tiempo total de ejecución: 1.50 segundos
+2025-07-17 23:26:44,549 - INFO - Uso de memoria: 113.66 MB
+2025-07-17 23:26:44,549 - INFO - Uso de CPU: 71.00 %
+2025-07-17 23:39:04,415 - INFO - Iniciando pipeline de entrenamiento
+2025-07-17 23:39:04,415 - INFO - Cargando dataset desde 'data/train.csv'
+2025-07-17 23:39:04,471 - INFO - Aplicando preprocesamiento al dataset
+2025-07-17 23:39:04,553 - INFO - Entrenando y exportando modelo A (baseline)
+2025-07-17 23:39:04,818 - INFO - Entrenando y exportando modelo B (mejorado)
+2025-07-17 23:39:05,119 - INFO - Pipeline completado exitosamente
+2025-07-17 23:39:06,133 - INFO - Tiempo total de ejecución: 1.72 segundos
+2025-07-17 23:39:06,133 - INFO - Uso de memoria: 113.46 MB
+2025-07-17 23:39:06,133 - INFO - Uso de CPU: 37.30 %
